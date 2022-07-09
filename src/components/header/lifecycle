@@ -1,0 +1,54 @@
+//mounting phase-page render in action to mounding phase  //  render means page dispaly action
+//update  value update in
+//unmounting component remove action
+//constructor intial the value first runing action to 
+// fetch("").then((response)=>response.json()).then(res=>{console.log(res)})
+//interviwe qusition
+//array & object
+//create react app in new npx create-react-app appname
+//axois install npm  install axois 
+// usestate& use effect
+//router// npm install react-router-dom --save
+
+//npx create-react-app my-app
+//cd my-app
+//npm start
+//useeffect --- render function calling next use effect call []-dependecy array
+//component did mount()--- first time render function execute next didmount call
+//component did update()---every time function rerender in process finish in update working process
+// render=  HTML to the web page by using a function called render()
+//state &                                 prpos
+//mutable                                //immuatable
+// state define component self           //you can pass propertise from parent component
+// this--The ‘this’ keyword typically references a JavaScript element depending on the scope or context of its use
+// using map concept
+//const numbers = [1, 2, 3, 4, 5];
+//const doubled = numbers.map((number) => number * 2);
+//console.log(doubled);
+import React, { Component } from 'react';
+
+class lifecycle extends Component {
+    constructor(){
+        super();
+        this.state={
+            lanuches:[]
+        }
+    }
+    componentDidMount(){
+    fetch("https://api.spacexdata.com/v3/launches")
+    .then((response)=>response.json())
+    .then(res=>{console.log(res)})
+    .then(this.setState({lanuches:res}))
+    }
+render() {
+      this.props.lanuches.map((lanuch))
+        return (
+            
+            <div>
+                
+            </div>
+        );
+    }
+}
+
+export default lifecycle;
