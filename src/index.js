@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
-import Resume from './resume';
+// import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
+// import Resume from './Resume';
 import App from './App';
 import reportWebVitals from './reportWebVitals'
+
 // const routing=(
  
 // );

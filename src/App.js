@@ -1,8 +1,11 @@
 
 import './App.css';
 //import React, {useState } from 'react';
-import Resume from './resume';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
+import Resume from './Resume';
+import {HashRouter as Router,Route,Switch} from 'react-router-dom'
+import Project from './Project';
+import Contact from './Contact';
+
 
 //import Sample from './sample';\\
 //import Hook from './hook';import Sample from './sample';
@@ -54,8 +57,9 @@ function App() {
 <div>
 <Router>
     <Switch>
-        <Route exact path='/' element={<Resume></Resume>}>
-           </Route>
+        <Route exact path='/' element={<Resume></Resume>}></Route>
+        <Route exact path='/project' element={<Project></Project>}></Route>
+        <Route exact path='/contact' element={<Contact></Contact>}></Route>
       </Switch>
  
   </Router>
