@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/deploy-react-github-pages/static/css/main.50fca830.css",
-    "main.js": "/deploy-react-github-pages/static/js/main.168b2e99.js",
-    "static/js/787.28cb0dcd.chunk.js": "/deploy-react-github-pages/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Yuhan.jpg": "/deploy-react-github-pages/static/media/Yuhan.2e9ab0650143d3cc8689.jpg",
-    "index.html": "/deploy-react-github-pages/index.html",
-    "main.50fca830.css.map": "/deploy-react-github-pages/static/css/main.50fca830.css.map",
-    "main.168b2e99.js.map": "/deploy-react-github-pages/static/js/main.168b2e99.js.map",
-    "787.28cb0dcd.chunk.js.map": "/deploy-react-github-pages/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/my-resume/static/css/main.51dfcc5c.css",
+    "main.js": "/my-resume/static/js/main.a784c10e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-resume/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Yuhan.jpg": "/my-resume/static/media/Yuhan.2e9ab0650143d3cc8689.jpg",
+    "index.html": "/my-resume/index.html",
+    "main.51dfcc5c.css.map": "/my-resume/static/css/main.51dfcc5c.css.map",
+    "main.a784c10e.js.map": "/my-resume/static/js/main.a784c10e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-resume/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50fca830.css",
-    "static/js/main.168b2e99.js"
+    "static/css/main.51dfcc5c.css",
+    "static/js/main.a784c10e.js"
   ]
 }
