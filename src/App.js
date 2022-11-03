@@ -57,13 +57,13 @@ function App() {
 <div>
 <Router>
     <Switch>
-        <Route exact path='/' element={<Resume></Resume>}></Route>
-        <Route exact path='/project' element={<Project></Project>}></Route>
-        <Route exact path='/contact' element={<Contact></Contact>}></Route>
+        <Route exact path='/' element={<Resume/>}></Route>
+        <Route exact path='/project' element={<Project/>}></Route>
+        <Route exact path='/contact' element={<Contact/>}></Route>
       </Switch>
  
   </Router>
-  <Resume></Resume>
+  <Resume/>
 </div>
   );
 }
